@@ -43,7 +43,7 @@ const Theme = function(props) {
 
     const classes = useStyles();
 
-    const [showAside, setShowAside] = useState(true);
+    const [showAside, setShowAside] = useState(false);
 
     const changeAside = function() {
         setShowAside(!showAside);

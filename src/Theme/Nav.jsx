@@ -68,7 +68,7 @@ const Nav = function(props) {
 
                 <Hidden mdDown>
                     <Box>
-                        <img src="/images/Amazon-Logo-1.png" alt="Logomarca" className={classes.logomarca} />
+                        <img src="/images/logo.png" alt="Logomarca" className={classes.logomarca} />
                     </Box>
                 </Hidden>
 

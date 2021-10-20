@@ -6,16 +6,18 @@ import {
 } from "react-router-dom";
 
 import Home from './Screens/Logged/Home';
+import Login from './Screens/Login';
 import Theme from "./Theme/Theme";
 
 const Routers = function() {
     return (
         <Router>
-            <Theme>
-                <Switch>
-                    <Route path="/" component={Home} />
-                </Switch>
-            </Theme>
+            <Switch>
+                <Route exact path="/login" component={Login} />
+                <Theme>
+                    <Route path="/home" component={Home} />
+                </Theme>
+            </Switch>
         </Router>
     );
 }
