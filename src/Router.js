@@ -13,10 +13,10 @@ const Routers = function() {
     return (
         <Router>
             <Switch>
-                <Route exact path="/login" component={Login} />
-                <Theme>
-                    <Route path="/home" component={Home} />
-                </Theme>
+                <Route path="/" component={Login} />
+                {/* <Theme> */}
+                    {/* <Route path="/home" component={Home} /> */}
+                {/* </Theme> */}
             </Switch>
         </Router>
     );
